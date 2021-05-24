@@ -1,0 +1,44 @@
+#about-container {
+  padding: 3rem 15rem;
+  background-color: #0077b6;
+  color: white;
+}
+
+#about-container h2{
+  font-weight: 500;
+  margin: 0.8rem 0 ;
+  font-size: 2rem;
+}
+#about-container h5{
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+#about-container h6{
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0.3rem 0;
+}
+
+@media (max-width: 1370px){
+  #about-container {
+    padding: 3rem 8rem;
+  }
+}
+
+@media (max-width: 900px){
+  #about-container {
+    padding: 3rem 3rem;
+  }
+  #about-container{
+    text-align: center;
+  }
+}
+
+@media (max-width: 750px){
+  #about-container {
+    padding: 3rem 1rem;
+  }
+}
+

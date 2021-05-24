@@ -1,0 +1,33 @@
+#por-main {
+  text-align: center;
+  background-color: white;
+
+}
+
+#por-title{
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 2rem;
+  color: rgb(66, 66, 66);
+}
+
+#por-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+#por-main h3{
+  font-weight: 400;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 900px){
+  #por-cards {
+    flex-direction: column;
+  }
+}
+

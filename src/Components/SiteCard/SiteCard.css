@@ -1,0 +1,74 @@
+#sd-main{
+  background-color: transparent;
+  box-shadow: 5px 5px 15px rgb(206, 206, 206);
+  margin: 1rem 0rem;
+}
+
+#sd-container{
+  box-shadow: 3px 3px 10px rgb(170, 170, 170);
+  border-radius: 5px;
+  text-align: center;
+  width: 20rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 25.5rem;
+}
+
+#sd-circle{
+  position: absolute;
+  top: 50%;
+  right: -6.9rem;
+}
+
+#sd-square{
+  position: absolute;
+  top: 50%;
+  right: 5.6rem;
+}
+
+#sd-container img{
+  width: 20rem;
+  height: 12rem;
+  object-fit: contain;
+}
+
+#sd-body{
+  padding: 1rem 1rem 0 1rem;
+  background-color: transparent;
+}
+
+#sd-body h2{
+  font-weight: 500;
+  color: rgb(78, 78, 78);
+  margin-bottom: 0.8rem;
+}
+
+#sd-body h5, #sd-body h6{
+  font-weight: 400;
+  color: rgb(68, 68, 68);
+  margin-bottom: 1rem;
+}
+
+#sd-main button {
+  border: 0;
+  width: 100%;
+  padding: 1rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+#sd-btn-pink{
+  background-color: #FE67FD;
+  color: white;
+}
+
+#sd-btn-blue{
+  background-color: #1182FC;
+  color: white;;
+}
+#sd-btn-black{
+  background-color: black;
+  color:rgb(230, 230, 230);
+}
