@@ -41,15 +41,15 @@ export default function Contanct() {
         message: data.message,
       };
       await emailjs.send(
-        'service_6oqyxwj',
-        'template_410jb89',
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         templateParams,
-        'user_UmAfmQUojIqr3juKZLyqX',
+        process.env.REACT_APP_USER_ID,
       );
-      toastifyError();
+      toastifySuccess();
       reset();
     } catch (e) {
-      toastifySuccess();
+      toastifyError();
     }
   };
 
@@ -116,12 +116,12 @@ export default function Contanct() {
                 </div>
                 <textarea
                   rows={3}
-                  name="Mensagem"
+                  name="message"
                   ref={register({
                     required: true,
                   })}
                   className="form-control formInput"
-                  placeholder="Message"
+                  placeholder="Mensage"
                 />
                 <button className="submit-btn" type="submit">
                   Enviar
